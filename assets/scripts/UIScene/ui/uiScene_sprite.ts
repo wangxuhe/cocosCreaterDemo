@@ -1,8 +1,6 @@
 
 import { _decorator, Component, Node, Sprite, SpriteFrame, Color, Button, resources, SpriteAtlas, assetManager, ImageAsset, Texture2D } from 'cc';
 const { ccclass, property, help} = _decorator;
-
-
  
 @ccclass('uiScene_sprite')
 @help("https://docs.cocos.com/creator/3.3/manual/zh/ui-system/components/editor/sprite.html")
@@ -73,7 +71,7 @@ export class uiScene_sprite extends Component {
         });
 
 
-        // 方式3: 设定指定的精灵帧
+        // 方式3: 设定指定的精灵帧(推荐)
         let frameUrl = "image/PurpleMonster/spriteFrame";
         resources.load(frameUrl, SpriteFrame, (err, spriteFrame) => {
             if (err) {
@@ -86,7 +84,7 @@ export class uiScene_sprite extends Component {
         });
 
         // ------------------------- 从图集中更换图片 -------------------------
-        // 首先读取精灵帧图集，然后从图集中获取指定的精灵帧
+        // 首先读取精灵帧图集，然后从图集中获取指定的精灵帧(推荐)
         let sprite_frame = this.frameSprite;
         resources.load("image/emoji", SpriteAtlas, (err:any, atlas) => {
             if (err) {
@@ -107,6 +105,7 @@ export class uiScene_sprite extends Component {
         this.fillSprite.fillRange = this._range;
     }
 
+    // 精灵触摸事件
     onSingleClick() {
         console.log("点击了单色精灵");
     }
