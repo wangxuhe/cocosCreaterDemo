@@ -6,10 +6,8 @@ const { ccclass, property } = _decorator;
 const _temp_vec3 = new Vec3();
 
 let dataList = [
-    {index:1, name:"Sprite 示例"},
-    {index:2, name:"Button 示例"},
-    {index:3, name:"Label 示例"},
-    {index:4, name:"ProgressBar 示例"},
+    {index:1, name:"Text 示例", sceneName: "UI/uiScene_text"},
+    {index:2, name:"Sprite 示例", sceneName: "UI/uiScene_sprite"},
 ];
  
 @ccclass('ListView')
@@ -38,7 +36,6 @@ export class ListView extends Component {
 
 
     onLoad() {
-        console.log("onLoad 。。。。。。。。。")
         this._updateTimer = 0;
         this._updateInterval = 0.2;
         this._lastContentPosY = 0; 
@@ -71,7 +68,6 @@ export class ListView extends Component {
             let uiTransComp = item._uiProps.uiTransformComp;
             item.setPosition(0, -uiTransComp.height * (0.5 + i) - this.spaceHeight * (i + 1), 0);
             // 更新item
-            //this.itemClass.updateItem(i, this._itemList[i]);
             item.getComponent("ListItem").updateItem(i, this._itemList[i]);
      
             

@@ -1,5 +1,5 @@
 
-import { _decorator, Component, Node, Button, Label } from 'cc';
+import { _decorator, Component, Node, Button, Label, director } from 'cc';
 const { ccclass, property } = _decorator;
  
 @ccclass('ListItem')
@@ -19,7 +19,7 @@ export class ListItem extends Component {
         
     }
 
-    updateItem(index:number, data:any) {
+    public updateItem(index:number, data:any) {
         console.log("ListItem Index:", index, data.name)
         this.titleText.string = data.name;
 
@@ -28,16 +28,11 @@ export class ListItem extends Component {
     }
 
     onClickEvent() {
-        console.log(this._index)
-        if(this._index == 0){
-            console.log("您点击了Sprite示例按钮")
-        }else if(this._index == 1) {
-            console.log("您点击了Button示例按钮")
-        }else if(this._index == 2) {
-            console.log("您点击了Label示例按钮")
-        }else if(this._index == 3) {
-            console.log("您点击了Bar示例按钮")
+        console.log(this._itemData)
+        let sceneName = this._itemData.sceneName;
+        if (sceneName)
+        {
+            director.loadScene(sceneName);
         }
     }
-
 }

@@ -1,0 +1,120 @@
+{
+  "ver": "1.0.6",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "45b99838-6aa9-4d99-849f-3e42657c2eeb",
+  "files": [
+    ".plist",
+    ".json"
+  ],
+  "subMetas": {
+    "19fe2": {
+      "importer": "sprite-frame",
+      "uuid": "45b99838-6aa9-4d99-849f-3e42657c2eeb@19fe2",
+      "displayName": "",
+      "id": "19fe2",
+      "name": "emoji1",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 1,
+        "trimY": 1,
+        "width": 68,
+        "height": 68,
+        "rawWidth": 68,
+        "rawHeight": 68,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "cb13a608-67b4-4d08-a95f-5395c7bc5558@6c48a",
+        "atlasUuid": "45b99838-6aa9-4d99-849f-3e42657c2eeb"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "34f21": {
+      "importer": "sprite-frame",
+      "uuid": "45b99838-6aa9-4d99-849f-3e42657c2eeb@34f21",
+      "displayName": "",
+      "id": "34f21",
+      "name": "emoji2",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 141,
+        "trimY": 1,
+        "width": 66,
+        "height": 66,
+        "rawWidth": 68,
+        "rawHeight": 68,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "cb13a608-67b4-4d08-a95f-5395c7bc5558@6c48a",
+        "atlasUuid": "45b99838-6aa9-4d99-849f-3e42657c2eeb"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ecc53": {
+      "importer": "sprite-frame",
+      "uuid": "45b99838-6aa9-4d99-849f-3e42657c2eeb@ecc53",
+      "displayName": "",
+      "id": "ecc53",
+      "name": "emoji3",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 71,
+        "trimY": 1,
+        "width": 68,
+        "height": 68,
+        "rawWidth": 68,
+        "rawHeight": 68,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "cb13a608-67b4-4d08-a95f-5395c7bc5558@6c48a",
+        "atlasUuid": "45b99838-6aa9-4d99-849f-3e42657c2eeb"
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "emoji.png",
+    "format": 3,
+    "uuid": "45b99838-6aa9-4d99-849f-3e42657c2eeb",
+    "textureUuid": "cb13a608-67b4-4d08-a95f-5395c7bc5558@6c48a"
+  }
+}
