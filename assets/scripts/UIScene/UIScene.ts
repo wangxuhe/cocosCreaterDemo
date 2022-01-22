@@ -9,6 +9,7 @@ let dataList = [
     {index:1, name:"Text 示例", sceneName: "UI/uiScene_text"},
     {index:2, name:"Sprite 示例", sceneName: "UI/uiScene_sprite"},
     {index:2, name:"Button 示例", sceneName: "UI/uiScene_button"},
+    {index:2, name:"Bar 示例", sceneName: "UI/uiScene_bar"},
 ];
  
 @ccclass('ListView')
