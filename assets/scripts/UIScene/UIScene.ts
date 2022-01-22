@@ -8,8 +8,9 @@ const _temp_vec3 = new Vec3();
 let dataList = [
     {index:1, name:"Text 示例", sceneName: "UI/uiScene_text"},
     {index:2, name:"Sprite 示例", sceneName: "UI/uiScene_sprite"},
-    {index:2, name:"Button 示例", sceneName: "UI/uiScene_button"},
-    {index:2, name:"Bar 示例", sceneName: "UI/uiScene_bar"},
+    {index:3, name:"Button 示例", sceneName: "UI/uiScene_button"},
+    {index:4, name:"Bar 示例", sceneName: "UI/uiScene_bar"},
+    {index:5, name:"EditBox 示例", sceneName: "UI/uiScene_editBox"},
 ];
  
 @ccclass('ListView')
