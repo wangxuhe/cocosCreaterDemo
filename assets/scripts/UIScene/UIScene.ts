@@ -11,6 +11,7 @@ let dataList = [
     {index:3, name:"Button 示例", sceneName: "UI/uiScene_button"},
     {index:4, name:"Bar 示例", sceneName: "UI/uiScene_bar"},
     {index:5, name:"EditBox 示例", sceneName: "UI/uiScene_editBox"},
+    {index:6, name:"webView 示例", sceneName: "UI/uiScene_webView"},
 ];
  
 @ccclass('ListView')
