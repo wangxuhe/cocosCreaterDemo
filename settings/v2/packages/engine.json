@@ -112,5 +112,8 @@
       "value": false,
       "version": ""
     }
+  },
+  "macroConfig": {
+    "ENABLE_TRANSPARENT_CANVAS": true
   }
 }
