@@ -6,13 +6,14 @@ const { ccclass, property } = _decorator;
 const _temp_vec3 = new Vec3();
 
 let dataList = [
-    {index:1, name:"Text 示例", sceneName: "UI/uiScene_text"},
-    {index:2, name:"Sprite 示例", sceneName: "UI/uiScene_sprite"},
-    {index:3, name:"Button 示例", sceneName: "UI/uiScene_button"},
-    {index:4, name:"Bar 示例", sceneName: "UI/uiScene_bar"},
-    {index:5, name:"EditBox 示例", sceneName: "UI/uiScene_editBox"},
-    {index:6, name:"webView 示例", sceneName: "UI/uiScene_webView"},
-    {index:7, name:"videoPlayer 示例", sceneName: "UI/uiScene_video"},
+    {name:"Text 示例", sceneName: "UI/uiScene_text"},
+    {name:"Sprite 示例", sceneName: "UI/uiScene_sprite"},
+    {name:"Button 示例", sceneName: "UI/uiScene_button"},
+    {name:"Bar 示例", sceneName: "UI/uiScene_bar"},
+    {name:"EditBox 示例", sceneName: "UI/uiScene_editBox"},
+    {name:"webView 示例", sceneName: "UI/uiScene_webView"},
+    {name:"videoPlayer 示例", sceneName: "UI/uiScene_video"},
+    {name:"pageView 示例", sceneName: "UI/uiScene_pageView"},
 ];
  
 @ccclass('ListView')
