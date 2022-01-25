@@ -14,6 +14,8 @@ let dataList = [
     {name:"webView 示例", sceneName: "UI/uiScene_webView"},
     {name:"videoPlayer 示例", sceneName: "UI/uiScene_video"},
     {name:"pageView 示例", sceneName: "UI/uiScene_pageView"},
+    {name:"scrollView 任务示例", sceneName: "UI/uiScene_scrollTask"},
+    {name:"scrollView 背包示例", sceneName: "UI/uiScene_scrollPackage"},
 ];
  
 @ccclass('ListView')
