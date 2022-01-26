@@ -7,6 +7,7 @@ const { ccclass, property } = _decorator;
 主要组成： 
     * ScrollView
     * Item 为Prefab， 内部嵌套着对应的脚本组件
+    * 配置脚本： taskConfig
 */
  
 @ccclass('packageItemScript')

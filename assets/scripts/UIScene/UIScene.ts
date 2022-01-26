@@ -8,6 +8,7 @@ const _temp_vec3 = new Vec3();
 let dataList = [
     {name:"Text 示例", sceneName: "UI/uiScene_text"},
     {name:"Sprite 示例", sceneName: "UI/uiScene_sprite"},
+    {name:"Mask 示例", sceneName: "UI/uiScene_mask"},
     {name:"Button 示例", sceneName: "UI/uiScene_button"},
     {name:"Bar 示例", sceneName: "UI/uiScene_bar"},
     {name:"EditBox 示例", sceneName: "UI/uiScene_editBox"},
