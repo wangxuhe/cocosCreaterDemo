@@ -37,7 +37,7 @@ export class Main extends Component {
     clickItemEvent(event: Button, index:any) 
     {
         if(index == 0) {
-            director.loadScene("UIScene");
+            director.loadScene("UI/UIScene");
         }
         else{
             console.log("您点击的索引是:", index);
@@ -63,6 +63,6 @@ export class Main extends Component {
     
     onExitEvent() {
         console.log("您点击了退出按钮")
-        //director.end();
+        director.end();
     }
 }

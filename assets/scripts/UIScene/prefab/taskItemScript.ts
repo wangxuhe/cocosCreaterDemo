@@ -1,6 +1,6 @@
 
 import { _decorator, Component, Node, Sprite, Label, ProgressBar, Button, resources, SpriteAtlas } from 'cc';
-import { TASKSTATE } from '../UIScene/config/taskConfig';
+import { TASKSTATE } from '../config/taskConfig';
 const { ccclass, property } = _decorator;
  
 @ccclass('taskItemScript')

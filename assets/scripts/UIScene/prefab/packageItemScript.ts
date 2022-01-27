@@ -1,6 +1,6 @@
 
 import { _decorator, Component, Sprite, Label, SpriteAtlas, resources, Node} from 'cc';
-import { TASKSTATE } from '../UIScene/config/taskConfig';
+import { TASKSTATE } from '../config/taskConfig';
 const { ccclass, property } = _decorator;
 
 /*
