@@ -6,6 +6,7 @@ const { ccclass, property } = _decorator;
 const _temp_vec3 = new Vec3();
 
 let dataList = [
+    // 标题， 场景名
     {name:"Text 示例", sceneName: "UI/uiScene_text"},
     {name:"Sprite 示例", sceneName: "UI/uiScene_sprite"},
     {name:"Mask 示例", sceneName: "UI/uiScene_mask"},
@@ -17,6 +18,7 @@ let dataList = [
     {name:"pageView 示例", sceneName: "UI/uiScene_pageView"},
     {name:"scrollView 任务示例", sceneName: "UI/uiScene_scrollTask"},
     {name:"scrollView 背包示例", sceneName: "UI/uiScene_scrollPackage"},
+    {name:"localStorage 本地存储", sceneName: "UI/uiScene_Storage"},
 ];
  
 @ccclass('ListView')
