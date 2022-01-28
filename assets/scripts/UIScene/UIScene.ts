@@ -18,7 +18,7 @@ let dataList = [
     {name:"pageView 示例", sceneName: "UI/uiScene_pageView"},
     {name:"scrollView 任务示例", sceneName: "UI/uiScene_scrollTask"},
     {name:"scrollView 背包示例", sceneName: "UI/uiScene_scrollPackage"},
-    {name:"localStorage 本地存储", sceneName: "UI/uiScene_Storage"},
+    {name:"localStorage 本地存储", sceneName: "UI/ UIScene_Storage"},
 ];
  
 @ccclass('ListView')
